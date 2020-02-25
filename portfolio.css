@@ -206,7 +206,7 @@ a{
 
   #f1{
     object-fit: scale-down;
-    background-image: url("./school.png");
+    background-image: url("./school.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     color: rgba(0,0,0);
