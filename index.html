@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TusharJain</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    $(document).ready(function () {
+      alert("Hi! Welcome To My Page!");
+   });
+</script>
+</head>
+<body>
+
+
+    <header>
+        <div class="header-left">
+          <div class="dropdown">
+              <a href="#About" id="abt" onclick="bar1()">About</a> 
+              <a href="#Ed" id="edc" onclick="bar2()">Education</a>
+              <a href="#Courses" id="sc" onclick="bar3()">Skils&Courses</a>
+              <a href="#Projects" id="prj" onclick="bar4()">Projects</a>
+              <a href="#Interests" id="int" onclick="bar5()">Interests</a>
+              <a href="#Contact" id="ctc" onclick="bar6()">Contact</a>
+            </div>
+          </div>   
+        </header>
+            <div class="top-wrapper">
+                <div class="top-left">
+                  <h3 id="hd">HI! my name is</h3>
+                  <h1 id="hd1">TUSHAR JAIN.</h1>
+                  <span id = "staticText" >I am <span id="typeline" ></span></span>
+                 </div>
+                
+            </div>
+ 
+      <div class="main" id="t">
+          <div id="About">
+            <div class="about">
+                <div class="left">
+                      <h1><i class="fa fa-id-card" aria-hidden="true"></i> About Me</h1>
+                  <p>I am an aspiring Web Developer, seeking an internship position in a good organisation where my potentials will be fully discovered while working for the company dedicatedly.Comes with exceptional ability to work and learn at the same time to gain experience and further my knowledge on the system.  </p>
+                    </div>
+                  <div class="right">
+                 </div>
+            </div>
+          </div>
+
+            <div class="Ed" id="Ed">
+               <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education </h1>
+              <div class="flip-card" id="b1">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front" id="f1">
+                  </div>
+                  <div class="flip-card-back">
+                       <ul>
+                            <li><h3>Secondary/High School (Grades 9-10) CGPA:10/10</h3></li>
+                            <ul>
+                               <li><h3>Activities and Societies:</h3></li>
+                                Olympiads(SOF,SilverZone)
+                            </ul>
+                           <li><h3>Higher Secondary School/Junior College (Grades 11-12)</h3></li>
+                          <ul>
+                          <li><h3>Activities and Societies:</h3></li>
+                               Vice House Captain(2016-2017)
+                           </ul> 
+
+                      </ul>
+                  </div>
+                </div>
+                </div>
+
+
+                <div class="flip-card" id="b2">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="f2">
+                      <p><h3 id="h" style="font-family: sans-serif;">SRM INSTITUTE OF TECHNOLOGY</h3></p>
+                      <ul>
+                        <li><h4 style="font-family: sans-serif;">COLLEGE(2018-2022)</h4></li>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <ul>
+                        <p style="font-family: sans-serif;"><b>I'm pursuing my undergraduate course in Computer Science And Engineering here.</b></p>
+                          <p style="font-size: large;">Current cgpa:9.39/10</p>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            </div>
+            
+          <div class="course" id="Courses">
+                <h1 class="title"> <i class="fa fa-diamond" aria-hidden="true"></i> Skills And Courses</h1>
+               <h3 style="text-align: center;">I love to explore technology and lately I am getting an urge to build it too</h3>
+               <div class="but">
+                 <button id="button1" onclick="cf()">Coding-Lang</button>
+                 <button id="button2" onclick="wd()">Web-Dev</button>
+                 <button id="button3" onclick="of()">Others</button>
+               </div>
+              <div class="display"> 
+                 <div id="Languages">
+                     <ul>
+                       <li>C/C++</li>
+                       <li>Python</li>
+                      </ul>
+                 </div>
+
+                 <div id="Web-Dev">
+                     <ul>
+                       <li>HTML|Introduction to HTML5 by University of Michigan on Coursera</li>
+                       <li>CSS|Introduction to CSS3 by University of Michigan on Coursera</li>
+                       <li>JAVASCRIPT| Interactivity with JavaScript by University of Michigan on Coursera.</li>
+                       <li>JQUERY|</li>
+                      </ul>
+                 </div>
+                 <div id="Others">
+                  <ul>
+                    <li>Done/Ongoing(UnderGrad):</li>
+                     <ul>
+                        <li>AutoCad</li> 
+                        <li>Programming For Problem Solving</li>
+                        <li>Data Structures And Algorithm</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Computer Architecture And Organisation</li>
+                        <li>Analog And Digital Circuits</li>
+                        <li>Operating Systems (Linux,Windows)</li>
+                     </ul>
+                     <li>To Do:</li>
+                        <ul>
+                          <li>Photoshop</li>
+                          <li>Sony Vegas Pro</li>
+                        </ul>
+                   </ul>
+                    </div>
+               </div>
+          </div>  
+
+          <div class="proj" id="Projects">
+            <h1 class="title"><i class="fa fa-briefcase" aria-hidden="true"></i> My Projects:</h1>    
+             <div class="prod" >
+               <i class="fa fa-folder-open" aria-hidden="true"></i>
+                <p>Chat Bot(ongoing)</p>
+                 <div class="made">
+                  <p>Node.js</p>
+               </div>
+             </div>
+             <div class="prod">
+              <i class="fa fa-folder-open" aria-hidden="true"></i>
+                <p>The Webpage which you are currently viewing :)</p>
+                <div class="made">
+                   <p>HTML|CSS|JQUERY|JAVASCRIPT</p>
+                </div>
+             </div>
+             <div class="prod">
+              <i class="fa fa-folder-open" aria-hidden="true"></i>
+                <p>Built a self coding website on the theme:To help the aspiring developers and beginners who're learning to code!</p>
+                <div class="made">
+                  <p>HTML|CSS|JAVASCRIPT</p>
+               </div>
+             </div>
+
+          </div>
+
+          <div class="int" id="Interests">
+            <h1>Interests:<i class="fa fa-glass" aria-hidden="true"></i> </h1>
+              <div class="int1">
+                 <p>Video-gaming</p>
+                 <i class="fa fa-gamepad" aria-hidden="true" style="font-size:30px"></i>
+              </div>
+              <div class="int1">
+                <p>Tennis</p>
+                <i class="fa fa-handshake-o" aria-hidden="true" style="font-size:30px"></i>
+              </div>
+             <div class="int1">
+              <p>Watching Anime</p>
+              <i class="fa fa-television" aria-hidden="true" style="font-size:30px"></i>
+             </div>
+             <div class="int1">
+            <p>Reading</p>
+            <i class="fa fa-book" aria-hidden="true" style="font-size:30px"></i>
+             </div>
+             <div class="int1">
+            <p>Travelling</p>
+            <i class="fa fa-suitcase " aria-hidden="true" style="font-size:30px"></i>
+            </div>
+        </div>
+      </div> 
+    
+      <footer>
+         <div class="left-footer">
+            <h2 id="Contact">Contact</h2>
+              <ul>
+                <li><i class="fa fa-envelope" aria-hidden="true" style="font-size:20px"></i> tj29tushar@gmail.com</li>
+                <li><i class="fa fa-mobile" aria-hidden="true" style="font-size:30px"></i> 9910526891</li>
+                <li><i class="fa fa-map-marker" aria-hidden="true"style="font-size:30px"></i> Delhi|Chennai</li>
+              </ul> 
+         </div>
+         <div class="right-footer">
+             <ul>
+               <li><a href="https://www.instagram.com/tushar.jain29/" target="blank"><i class="fa fa-instagram" aria-hidden="true" style="color: aqua;"></i></a></li>
+               <li><a href="https://www.facebook.com/tj7tushar" target="blank"><i class="fa fa-facebook" aria-hidden="true" style="color: aqua;"></i></a> </li>
+               <li><a href="https://www.linkedin.com/in/tushar-jain-022a69187/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: aqua;"></i></a></li>
+               <li><a href="https://github.com/CodeBlood2" target="blank"><i class="fa fa-github" aria-hidden="true" style="color: aqua;"></i></a></li></li>
+             </ul>
+         </div>
+      </footer>
+   <script src="./portfolio.js"></script>
+  </body>
+</html>
